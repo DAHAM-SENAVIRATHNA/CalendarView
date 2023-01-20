@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CurrentDaywithCalandar</string>
+    <string name="currentday">CurrentDay</string>
+    <string name="showcalander">ShowCalander</string>
+</resources>
