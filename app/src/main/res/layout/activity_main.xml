@@ -10,7 +10,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/current"
         android:layout_width="139dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
         android:layout_marginStart="124dp"
         android:layout_marginTop="64dp"
         android:background="@drawable/image"
@@ -21,26 +21,44 @@
         app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028" />
+        app:layout_constraintVertical_bias="0.016" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/calander"
-        android:layout_width="234dp"
+        android:layout_width="250dp"
         android:layout_height="29dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="172dp"
         android:fontFamily="sans-serif-black"
-        android:text="currentday"
+        android:text="current day"
         android:textAlignment="center"
-        android:textColor="#FFEB3B"
-        android:textSize="22sp"
+        android:textColor="#8BFD06"
+        android:textSize="24sp"
         android:textStyle="bold"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="@id/current"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="@id/current"
         app:layout_constraintTop_toBottomOf="@id/current" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Activitybutton2"
+        android:layout_width="133dp"
+        android:layout_height="41dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="41dp"
+        android:text="Add Events"
+        app:layout_constraintBottom_toTopOf="@+id/calander"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/current"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
